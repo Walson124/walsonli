@@ -17,10 +17,6 @@ header {
     display: flex;
 }
 
-.header-child {
-    flex-grow: 1;
-}
-
 .intro{
     display: flex;
     flex-direction: column;
