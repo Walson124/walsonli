@@ -3,12 +3,28 @@ html * {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
 }
 
+header {
+    height: 5vh;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    background-color: bisque;
+}
+
+.header-child {
+    flex-grow: 1;
+    border-style: dotted;
+}
+
 .intro{
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     background-color: aquamarine;
@@ -37,7 +53,7 @@ body {
 }
 
 .tag-list span {
-    padding: 1vh 1vh;
+    padding: 1vh 1.5vh;
     border: 1px dotted darkslategray;
     border-radius: 5px;
     margin: 0 1vh 1vh 0;
