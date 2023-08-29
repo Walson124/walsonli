@@ -17,6 +17,11 @@ header {
     display: flex;
 }
 
+.header-text{
+    font-size: 100%;
+    flex:1;
+}
+
 .intro{
     display: flex;
     flex-direction: column;
