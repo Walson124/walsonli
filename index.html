@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Portfolio - Walson Li</title>
+        <link rel="stylesheet" href="assets/css/mainStyle.css">
     </head>
     <body>
         <header>
@@ -10,42 +11,60 @@
             -->
         </header>
 
-        <!--Sections to make things cleaner-->
-        <section title="intro">
-            <h1>
-                Hey, my name is Walson!
-            </h1>
-            <p>
-                I am a student at the University of Connecticut majoring in Computer Science and Engineering. I love solving challenging problems that involve both high and low level software. Here, I've made a portfolio of some of the projects I've created in my free time.
-            </p>
-
-            <!--This is used as a button with better customization-->
-            <form action="https://www.linkedin.com/in/walsonli">
-                <input type="submit" value="LinkedIn">
-            </form>
-        </section>
-
-        <section title="aboutme" style="text-align: center;width:49%; display: inline-block;">
-            <h2>More About Me</h2>
-        </section>
-
-        <section title="skills" style="text-align: center;width:50%; display: inline-block;">
-            <h2>Skills</h2>
-            <!--Format this later with css-->
-            <div class="tag-list" style="position:absolute">
-                <span>Java</span>
-                <span>Python</span>
-                <span>C</span>
-                <span>C#</span>
-                <span>Git</span>
-                <span>Linux</span>
-                <span>SQL</span>
-                <span>HTML</span>
-                <span>Unit Testing</span>
+        <!--Section for introduction-->
+        <div id="intro" class="intro">
+            <div class="intro-child">
+                <h1>
+                    Hey, my name is Walson!
+                </h1>
             </div>
-        </section>
-        
-        
+            <div class="intro-child">
+                <p>
+                    I am a student at the University of Connecticut majoring in Computer Science and Engineering. I love solving challenging problems that involve both high and low level software. Here, I've made a portfolio of some of the projects I've created in my free time.
+                </p>
+            </div>
+            <div class="intro-child">
+                <!--This is used as a button with better customization-->
+                <form action="https://www.linkedin.com/in/walsonli">
+                    <input type="submit" value="LinkedIn">
+                </form>
+            </div>
+        </div>
+
+        <!--Section for "About Me" and "Skills"-->
+        <div class="flex-container" style="background-image: url(assets/images/aboutme-skills.jpg); padding-left: 3vh; padding-right: 3vh;">
+            <div class="split" id="left">
+                <div class="center-children">
+                    <h2>About Me</h2>
+                    <p>
+                        Ever since a child, I've had a passion for making things from scratch. I didn't have special equipment or materials, so I used scraps like used food containers and cardboard to create simple models and kinetic toys. When computers became more popular, programs like scratch brought this passion of building things from smaller blocks to the computer world. And in highschool, I brought this passion to actual code.
+                    </p>
+                    <p>
+                        Over the past few years, I have contributed to my highschool and college robotics teams, learned and applied various new coding concepts and languages in classes, and had an software engineering internship at General Dynamics Electric Boat, where I improved my coding skills and gained experience in the workforce. Throughout this time, my passion for coding has only increased as I realize how all the concepts intertwine.
+                    </p>
+                    <p>
+                        Now, I would like to apply my skills in careers related to software development, embedded software development, CV, AI, or ML. Preferably I will have the chance to work with GUIs.
+                    </p>
+                </div>
+            </div>
+            <div class="split" style="max-width: 3vh;"></div>
+            <div class="split" id="right">
+                <div class="center-children">
+                    <h2>Skills</h2>
+                    <span class="tag-list">
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>C</span>
+                        <span>C#</span>
+                        <span>Git</span>
+                        <span>Linux</span>
+                        <span>SQL</span>
+                        <span>HTML</span>
+                        <span>Unit Testing</span>
+                    </span>
+                </div>
+            </div>
+        </div>
 
     </body>
 </html>

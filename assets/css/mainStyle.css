@@ -1,0 +1,47 @@
+html * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.intro{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+
+.intro-child{
+    vertical-align: middle; 
+}
+
+.flex-container {
+    display: flex; /* displays children inline by default */
+}
+  
+.split {
+    flex: 1;
+}
+
+.center-children{
+    height: 100%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.tag-list span {
+    padding: 1vh 1vh;
+    border: 1px dotted darkslategray;
+    border-radius: 5px;
+    margin: 0 1vh 1vh 0;
+    display: inline-block;
+    background-color: antiquewhite;
+    opacity: 0.7;
+}
