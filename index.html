@@ -3,23 +3,32 @@
     <head>
         <title>Portfolio - Walson Li</title>
         <link rel="stylesheet" href="assets/css/mainStyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <header>
-            <div id="header-profile" class="header-child" style="vertical-align: center; display: flex">
-                <div>
-                    <img src="assets/images/profile-pic.JPG" alt="Profile Picture" style="height:100%;">
+            <div class="header-child">
+                <div id="header-background" style="background-color:whitesmoke; height:100%; display:flex;">
+                    <div id="header-profile" style="flex:1; display:flex; padding-bottom:0.5%; padding-top: 0.5%;">
+                        <div id="header-picture" style="height:100%; flex:1; display:flex; justify-content:center;">
+                            <img src="assets/images/profile-pic.JPG" alt="Picture of Me" style="height:100%; clip-path:circle();">
+                        </div>
+                        <div id="header-name" style="height:100%; flex:3; margin:0 auto">
+                            <h1 style="-webkit-text-size-adjust: none; font-size:3vh; vertical-align: middle;">Walson Li</h1>
+                        </div>
+                    </div>
+                    <div id="header-links" style="flex:1; display:flex; padding-bottom:0.5%; padding-top: 0.5%;">
+                        <div style="flex:1;">
+                            <h2 style="font-size:2.5vh; text-align: center;">Projects</h2>
+                        </div>
+                        <div style="flex:1">
+                            <h2 style="font-size:2.5vh; text-align: center;">Education</h2>
+                        </div>
+                        <div style="flex:1">
+                            <h2 style="font-size:2.5vh; text-align: center;">Contact Me</h2>
+                        </div>
+                    </div>
                 </div>
-                <div style="border-style:dashed; width:auto;">
-                    <h2>Walson Li</h2>
-                </div>
-                
-            </div>
-            <div id="header-title" class="header-child">
-
-            </div>
-            <div id="header-links" class="header-child">
-                
             </div>
         </header>
 
@@ -44,7 +53,7 @@
         </div>
 
         <!--Section for "About Me" and "Skills"-->
-        <div class="flex-container" style="background-image: url(assets/images/aboutme-skills.jpg); padding-left: 3vh; padding-right: 3vh;">
+        <div class="flex-container" style="background-image:url(assets/images/aboutme-skills.jpg); padding-left:3vh; padding-right:3vh;">
             <div class="split" id="left">
                 <div class="center-children">
                     <h2>About Me</h2>
@@ -56,7 +65,7 @@
                     </p>
                 </div>
             </div>
-            <div class="split" style="max-width: 3vh;"></div>
+            <div class="split" style="max-width:3vh;"></div>
             <div class="split" id="right">
                 <div class="center-children">
                     <h2>Skills</h2>
