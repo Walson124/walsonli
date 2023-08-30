@@ -17,9 +17,24 @@ header {
     display: flex;
 }
 
-.header-text{
-    font-size: 100%;
+.header-div{
+    /* border: 1px solid black; */
     flex:1;
+    height:100%;
+    width:100%;
+    display:flex;
+}
+
+.header-text {
+    /* border-style: dashed; */
+    font-size:3vh;
+    text-align: center;
+    padding: 0.5vh 1vh 0.5vh 1vh;
+    text-decoration: none;
+}
+
+.header-text:hover {
+    border-bottom: dotted black;
 }
 
 .intro{
