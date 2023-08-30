@@ -53,6 +53,20 @@ header {
     border-bottom: dotted black;
 }
 
+.sidelinks {
+    z-index: .5;
+    top: 35%;
+    width: 5%;
+    position: fixed;
+}
+
+.sidelinks-background {
+    border-style:dashed;
+    border-color:grey;
+    background-color: whitesmoke;
+    width:100%;
+}
+
 .intro{
     display: flex;
     flex-direction: column;
