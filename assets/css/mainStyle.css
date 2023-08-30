@@ -61,10 +61,15 @@ header {
 }
 
 .sidelinks-background {
-    border-style:dashed;
-    border-color:grey;
     background-color: whitesmoke;
     width:100%;
+    opacity: 0.5;
+}
+
+.sidelinks-background:hover {
+    border-style:dashed;
+    border-color:grey;
+    opacity: 1;
 }
 
 .intro{
