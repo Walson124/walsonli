@@ -12,10 +12,10 @@ body {
 }
 
 header {
-    height: 10vh;
+    height: 33%;
     width: 100%;
     z-index: 1;
-    position: fixed;
+    position: absolute;
     display: flex;
 }
 
