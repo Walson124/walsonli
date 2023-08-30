@@ -15,7 +15,7 @@ header {
     height: 33%;
     width: 100%;
     z-index: 1;
-    position: absolute;
+    position: fixed;
     display: flex;
     white-space: nowrap;
     overflow: hidden;
@@ -213,7 +213,14 @@ footer {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 992px){
-    
+    @media (orientation:portrait){
+        .intro {
+            padding-top: 22%;
+        }
+    }
+    header {
+        max-width: 992px;
+    }
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -222,6 +229,9 @@ footer {
         .intro {
             padding-top: 22%;
         }
+    }
+    header {
+        max-width: 768px;
     }
     .header-text {
         font-size:1.5vh;
