@@ -17,8 +17,14 @@ header {
     display: flex;
 }
 
+.header-background {
+    background-color:whitesmoke;
+    width:inherit;
+    height:inherit;
+    display:flex;
+}
+
 .header-div{
-    /* border: 1px solid black; */
     flex:1;
     height:100%;
     width:100%;
@@ -33,6 +39,16 @@ header {
     text-decoration: none;
 }
 
+.header-label:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.header-label:link {
+    text-decoration: none;
+    color: black;
+}
+
 .header-text:hover {
     border-bottom: dotted black;
 }
@@ -43,11 +59,12 @@ header {
     align-items: center;
     background-color: rgb(247, 234, 209);
     padding-top: 11vh;
-    padding-bottom: 5vh;
+    padding-bottom: 2vh;
 }
 
 .intro-child{
     vertical-align: middle; 
+    width:100%;
 }
 
 .flex-container {

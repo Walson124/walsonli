@@ -7,24 +7,24 @@
     </head>
     <body>
         <header>
-            <div style="background-color:whitesmoke; width:inherit; height:inherit; display:flex;">
+            <div class="header-background">
                 <div class="header-div">
                     <div class="header-div;" style="margin-left:5%; margin-right: 5%;">
                         <img src="assets/images/profile-pic.JPG" style="height:100%; clip-path:circle();">
                     </div>
-                    <div class="header-div;">
-                        <h2 class="header-text">Walson Li</h2>
+                    <div title="Home" class="header-div;">
+                        <h2 class="header-text"><a class="header-label" href=index.html>Walson Li</a></h2>
                     </div>
                 </div>
                 <div class="header-div">
-                    <div class="header-div" style="justify-content: right; margin-left: 1%; margin-right: 1%;">
-                        <h2 class="header-text">Home</h2>
+                    <div title="Projects" class="header-div" style="justify-content: center;">
+                        <h2 class="header-text"><a class="header-label" href=projects.html>Projects</a></h2>
                     </div>
-                    <div class="header-div" style="justify-content: right; margin-left: 1%; margin-right: 1%;">
-                        <h2 class="header-text">Projects</h2>
-                    </div>
-                    <div class="header-div" style="justify-content: right; margin-left: 1%; margin-right: 1%;">
+                    <div title="Education" class="header-div" style="justify-content: center;">
                         <h2 class="header-text">Education</h2>
+                    </div>
+                    <div title="Contact Me" class="header-div" style="justify-content: center; margin-right: 3%;">
+                        <h2 class="header-text">Contact</h2>
                     </div>
                 </div>
             </div>
@@ -33,12 +33,12 @@
         <!--Section for introduction-->
         <div id="intro" class="intro">
             <div id="intro-bubble" style="border-style:dashed; margin:3%; border-radius:3%; padding:3%; background-color: whitesmoke;">
-                <div style="width:fit-content; margin:auto; padding-left:10%; padding-right:10%;">
-                    <h1 style="font-size:200%;">
+                <div class="intro-child">
+                    <h1 style="font-size:200%; text-align: center;">
                         Hey, my name is Walson!
                     </h1>
                 </div>
-                <div class="intro-child" style="margin:auto; padding-left:3%; padding-right:3%;">
+                <div class="intro-child">
                     <p style="font-size:105%; text-align: center;">
                         I am a student at the University of Connecticut majoring in Computer Science and Engineering. I love solving challenging problems that involve both high and low level software. Here, I've made a portfolio of some of the projects I've created in my free time.
                     </p>
