@@ -203,8 +203,8 @@ footer {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 1200px){
-    header {
-        height: 10vh;
+    .intro {
+        padding-top: 10%;
     }
 }
 
@@ -215,8 +215,8 @@ footer {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 768px){
-    header {
-        height: 20vh;
+    .intro {
+        padding-top: 50%;
     }
 }
 
