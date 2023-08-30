@@ -17,6 +17,8 @@ header {
     z-index: 1;
     position: absolute;
     display: flex;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .header-background {
