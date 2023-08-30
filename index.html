@@ -21,7 +21,7 @@
                 </div>
                 <div class="header-div">
                     <div title="Projects" class="header-div" style="justify-content: center;">
-                        <h2 class="header-text"><a class="header-label" href=projects.html>Projects</a></h2>
+                        <h2 class="header-text"><a class="header-label" href=#projects>Projects</a></h2>
                     </div>
                     <div title="Education" class="header-div" style="justify-content: center;">
                         <h2 class="header-text">Education</h2>
@@ -50,7 +50,7 @@
         </div>
 
         <!--Section for sidebar quick links-->
-        <div class="sidelinks">
+        <div id="sidelinks" class="sidelinks">
             <a href="https://www.linkedin.com/in/walsonli" alt="https://linkedin.com/in/walsonli">
                 <img class="sidelinks-background" src="assets/images/linkedin-logo.png" style="width: 100%;">
             </a>
@@ -60,9 +60,9 @@
         </div>
 
         <!--Section for "About Me" and "Skills"-->
-        <div class="aboutme-skills" style="background-image:url(assets/images/19366.jpg); background-size:cover;">
+        <div id="aboutme-skills" class="aboutme-skills" style="background-image:url(assets/images/19366.jpg); background-size:cover;">
             <div class="split" style="border-style:dashed; border-radius: 3%">
-                <div class="center-children" style="margin-left: 1%; margin-right: 1%;">
+                <div class="center-children" style="margin-left: 1%; margin-right: 1%; padding-left: 1%; padding-right: 1%;">
                     <h2>About Me</h2>
                     <p>
                         Over the past few years, I have contributed to my highschool and college robotics teams, learned and applied various new coding concepts and languages in classes, and had an software engineering internship at General Dynamics Electric Boat, where I improved my coding skills and gained experience in the workforce. Throughout this time, my passion for coding has only increased as I realize how all the concepts intertwine.
@@ -94,6 +94,72 @@
             </div>
         </div>
 
+        <!--Section for projects-->
+        <div id="projects" class="projects">
+            <div class="projects-background">
+                <div class="projects-title">
+                    <h1 style="font-size:200%; text-align: center;">
+                        Projects
+                    </h1>
+                </div>
+                <div class="projects-child">
+                    <p style="font-size:105%; text-align: center;">
+                        
+                    </p>
+                </div>
+            </div>
+            <div style="display:flex; justify-content: center; width: 100%; margin-top: 3%; gap: 3%;">
+                <a class="projects-list" href="https://www.cse.uconn.edu/undergraduate/senior-design-projects/" alt="Information on Senior Design Project">
+                    <div>
+                        <h2 class="projects-list-titles">
+                            Senior Design Project
+                        </h2>
+                    </div>
+                    <div>
+                        <p class="projects-list-details">
+                            Work in progress. Will most likely involve using ML to identify some pattern that will help with some real-life task. Most likely will be put into an app.
+                        </p>
+                    </div>
+                </a>
+                <a class="projects-list" href="https://github.com/Walson124/bubble-shooter" alt="https://github.com/Walson124/bubble-shooter">
+                    <div>
+                        <h2 class="projects-list-titles">
+                            Bubble Shooter
+                        </h2>
+                    </div>
+                    <div>
+                        <p class="projects-list-details">
+                            Remake of the "Bubble Shooter" game using java awt and swing libraries.
+                        </p>
+                    </div>
+                </a>
+                <a class="projects-list">
+                    <div>
+                        <h2 class="projects-list-titles">
+                            Chess
+                        </h2>
+                    </div>
+                    <div>
+                        <p class="projects-list-details">
+                            Work in progress. Coded chess on android studio using java. Will eventually have "dice chess" functionality.
+                        </p>
+                    </div>
+                </a>
+                <!-- <div class="projects-list">
+                    <div>
+                        <h2 class="projects-list-titles">
+                            
+                        </h2>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+        <!--Section for education-->
+        
+
+        <!--Section for contact-->
+
         <!--Section for footer-->
         <footer>
             <div class="footer-child" style="display:flex;">
@@ -101,10 +167,9 @@
                     <p class="footer-text">Author: Walson Li</p>
                 </div>
                 <div class="footer-child">
-                    <p class="footer-text">Written from scratch</p>
+                    <a href="#top" style="text-decoration: none;"><p class="footer-text">Back to top</p></a>
                 </div>
             </div>
         </footer>
-
     </body>
 </html>
