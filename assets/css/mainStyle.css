@@ -204,7 +204,7 @@ footer {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 1200px){
     .intro {
-        padding-top: 10%;
+        padding-top: 11%;
     }
 }
 
@@ -216,7 +216,14 @@ footer {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 768px){
     .intro {
-        padding-top: 50%;
+        padding-top: 22%;
+    }
+
+    .header-text {
+        font-size:1.5vh;
+        text-align: center;
+        padding: 3vh 1vh 0.5vh 1vh;
+        text-decoration: none;
     }
 }
 
