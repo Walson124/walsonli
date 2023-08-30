@@ -209,6 +209,9 @@ footer {
     .intro {
         padding-top: 11%;
     }
+    header {
+        max-width: 1200px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -232,6 +235,7 @@ footer {
     }
     header {
         max-width: 768px;
+        margin-right: -10px;
     }
     .header-text {
         font-size:1.5vh;
@@ -243,5 +247,19 @@ footer {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    
+    @media (orientation:portrait){
+        .intro {
+            padding-top: 22%;
+        }
+    }
+    header {
+        max-width: 600px;
+        margin-right: -10px;
+    }
+    .header-text {
+        font-size:1.5vh;
+        text-align: center;
+        padding: 3vh 1vh 0.5vh 1vh;
+        text-decoration: none;
+    }
 }
