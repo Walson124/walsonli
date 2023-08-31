@@ -208,7 +208,7 @@ footer {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1440px) {
     .intro {
         padding-top: 5%;
         padding-bottom: 0%;
@@ -216,6 +216,21 @@ footer {
     .projects {
         padding-top: 3%;
         padding-bottom: 3%;
+    }
+}
+
+/* For macbook (1440px and up) */
+@media only screen and (max-width: 1440px) {
+    .intro {
+        padding-top: 5%;
+        padding-bottom: 0%;
+    }
+    .projects {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    header {
+        max-width: 1440px;
     }
 }
 
