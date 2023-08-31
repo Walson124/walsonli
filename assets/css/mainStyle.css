@@ -212,6 +212,10 @@ footer {
     .intro {
         padding-top: 5%;
     }
+    .projects {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
