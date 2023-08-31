@@ -246,7 +246,7 @@ footer {
         margin-right: -10px;
     }
     .header-div {
-        max-width: calc(768px / 3);
+        max-width: calc(768px / 3.5);
     }
     .header-text {
         font-size:1.5vh;
@@ -271,7 +271,7 @@ footer {
         margin-right: -10px;
     }
     .header-div {
-        max-width: calc(600px / 3);
+        max-width: calc(600px / 3.5);
     }
     .header-text {
         font-size:1.5vh;
