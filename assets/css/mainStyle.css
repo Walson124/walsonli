@@ -208,7 +208,7 @@ footer {
 }
 
 /* Extra large devices (large laptops and desktops, 1500px and up) */
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1500px) {
     .intro {
         padding-top: 5%;
         padding-bottom: 0%;
