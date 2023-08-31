@@ -233,7 +233,7 @@ footer {
         max-width: 1500px;
     }
     .header-div {
-        max-width: calc(1500px / 2.5);
+        max-width: calc(1500px / 2);
     }
 }
 
