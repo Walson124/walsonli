@@ -207,7 +207,7 @@ footer {
     text-decoration: none;
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Extra large devices (large laptops and desktops, 1470px and up) */
 @media only screen and (min-width: 1440px) {
     .intro {
         padding-top: 5%;
@@ -219,8 +219,8 @@ footer {
     }
 }
 
-/* For macbook (1440px and up) */
-@media only screen and (max-width: 1440px) {
+/* For macbook (1200px and up) */
+@media only screen and (max-width: 1470px) {
     .intro {
         padding-top: 5%;
         padding-bottom: 0%;
@@ -230,7 +230,7 @@ footer {
         padding-bottom: 3%;
     }
     header {
-        max-width: 1440px;
+        max-width: 1470px;
     }
 }
 
