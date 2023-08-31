@@ -211,6 +211,7 @@ footer {
 @media only screen and (min-width: 1200px) {
     .intro {
         padding-top: 5%;
+        padding-bottom: 0%;
     }
     .projects {
         padding-top: 3%;
