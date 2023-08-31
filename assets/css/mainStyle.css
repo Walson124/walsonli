@@ -245,6 +245,9 @@ footer {
         padding: 3vh 1vh 0.5vh 1vh;
         text-decoration: none;
     }
+    .header-div {
+        max-width: 389px;
+    }
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -263,5 +266,8 @@ footer {
         text-align: center;
         padding: 3vh 1vh 0.5vh 1vh;
         text-decoration: none;
+    }
+    .header-div {
+        max-width: 300px;
     }
 }
