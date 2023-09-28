@@ -98,7 +98,7 @@ header {
     width:100%;
 }
 
-.aboutme-skills {
+.side-split-class {
     display: flex;
     padding-left:3%;
     padding-right:3%;
@@ -276,12 +276,9 @@ footer {
         max-width: 768px;
         /*margin-right: -10px;*/
     }
-    /*
     .header-div {
         max-width: calc(768px / 3.5);
     }
-    */
-    /*
     .header-text {
         font-size:1.5vh;
         text-align: center;
@@ -291,7 +288,6 @@ footer {
     .header-image {
         margin-right: 0%;
     }
-    */
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -305,11 +301,9 @@ footer {
         max-width: 600px;
         margin-right: -10px;
     }
-    /*
     .header-div {
         max-width: calc(600px / 3.5);
     }
-    */
     .header-text {
         font-size:1.5vh;
         text-align: center;
