@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    /* Page font */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    /* Header font */
+    font-size: 150%;
+    font-weight: bold;
+}
+
+header > div {
+    display: flex;
+    flex-grow: 1;
+}
+
+header > div > div {
+    flex-grow: 1;
+    text-align: center;
+}
