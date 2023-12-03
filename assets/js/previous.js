@@ -1,14 +1,15 @@
+versions = {
+    'version1':'oldversions/1.0/index.html',
+    'version2':'index.html',
+}
+
 versionClickable();
 
 function versionClickable() {
-    const version1 = document.getElementById('version1');
-    const version2 = document.getElementById('version2');
-    version1.addEventListener('click', function() {
-        // Change the location to the desired HTML page
-        window.open('oldversions/1.0/index.html', '_blank');
-    });
-    version2.addEventListener('click', function() {
-        // Change the location to the desired HTML page
-        window.location.href = 'index.html';
-    });
+    for (let i = 0; i < Object.keys(versions).length; i++) {
+        version = document.getElementById(Object.keys(versions)[i]);
+        version.addEventListener('click', function() {
+            window.open(versions[Object.keys(versions)[i]], '_blank');
+        });
+    }
 }
