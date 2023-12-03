@@ -1,0 +1,12 @@
+#main-content > div {
+    font-size: 125%;
+}
+
+.span-list {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem 0.8rem 0;
+    border:solid;
+    border-radius: 0.5rem;
+    display: inline-block;
+    background-color: antiquewhite;
+}
