@@ -74,6 +74,11 @@ function openTOC() {
         // console.log('mouse left');
         toc.style.visibility = 'hidden';
     })
+    document.addEventListener("click", function (event) {
+        if (event.target !== toc) {
+            toc.style.visibility = toc.style.visibility === 'hidden' ? 'visible' : 'hidden';
+        }
+    });
 }
 
 function toggleTOCHelpers() {
