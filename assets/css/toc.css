@@ -75,6 +75,7 @@ html, body {
 
 #TOC a:hover {
     font-weight: bold;
+    color: cornflowerblue;
 }
 
 .toc-circular-arrow {
