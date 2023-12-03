@@ -35,6 +35,10 @@ function createTOCSelectorHelpers() {
     toc_selector_label.innerText = "here's the menu";
     toc_selector_arrow.setAttribute('onmouseover', 'toggleTOCHelpers()');
     toc_selector_label.setAttribute('onmouseover', 'toggleTOCHelpers()');
+    if (document.title != 'Hey! -Walson Li') {
+        toc_selector_arrow.style.opacity = 0;
+        toc_selector_label.style.opacity = 0;
+    }
     toc_selector_arrow.id = 'TOC-selector-arrow';
     toc_selector_label.id = 'TOC-selector-label';
     toc_selector_arrow.appendChild(arrow_img);
