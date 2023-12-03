@@ -1,0 +1,94 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    background-color: papayawhip;
+}
+
+#TOC-selector-container {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    z-index: 1;
+}
+
+#TOC-selector-container div {
+    padding: 20%;
+    width: 60%;
+    height: 60%;
+    overflow: hidden;
+}
+
+#TOC-selector {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+#TOC-selector-arrow {
+    margin-left: 37px;
+    margin-top: 80px;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+}
+
+#TOC-selector-arrow img {
+    width: 100%;
+    height: auto;
+}
+
+#TOC-selector-label {
+    margin-left: 115px;
+    margin-top: 85px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    transform: rotate(-45deg);
+    position: fixed;
+}
+
+#TOC {
+    width: 300px;
+    height: calc(100% - 100px);
+    padding-top: 100px;
+    position: fixed;
+    display: flex;
+    visibility: hidden;
+    flex-direction: column;
+    background-color: papayawhip;
+}
+
+#TOC > div {
+    width: calc(100% - 2rem);
+    height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+}
+
+#TOC a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100%;
+}
+
+#TOC a:hover {
+    font-weight: bold;
+}
+
+.toc-circular-arrow {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+}
+
+.circular-img {
+    border-radius: 50%;
+}
+
+.default-shadow {
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
