@@ -1,0 +1,7 @@
+#main-content > div {
+    font-size: 125%;
+}
+
+#main-content > div > div {
+    margin-top: 1rem;
+}
