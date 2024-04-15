@@ -62,6 +62,35 @@ function generateOwl() {
             owlEyes.style.marginTop = `${defaultTop + diffY * (maxHeight - defaultTop)}%`;
         }
     });
+    document.body.addEventListener('touchmove', function(event) {
+        // Prevent scrolling on touch devices
+        event.preventDefault();
+        mouseX = event.touches[0].clientX;
+        mouseY = event.touches[0].clientY;
+        const owlPos = getElementPositionRelativeToDocument(owl);
+        const owlX = owlPos[0];
+        const owlY = owlPos[1];
+        const diffX = (mouseX - owlX) / body.scrollWidth;
+        const diffY = (mouseY - owlY) / body.scrollHeight;
+        if (diffX < 0) {
+            // console.log("mouse to left of owl");
+            // console.log(defaultLeft + diffX * (defaultLeft - minLeft));
+            owlEyes.style.marginLeft = `${defaultLeft + diffX * (defaultLeft - minLeft)}%`;
+        } else {
+            // console.log("mouse to right of owl");
+            // console.log(defaultLeft + diffX * (maxLeft - defaultLeft));
+            owlEyes.style.marginLeft = `${defaultLeft + diffX * (maxLeft - defaultLeft)}%`;
+        }
+        if (diffY < 0) {
+            // console.log("mouse to top of owl");
+            // console.log(defaultTop + diffY * (defaultTop - minHeight));
+            owlEyes.style.marginTop = `${defaultTop + diffY * (defaultTop - minHeight)}%`;
+        } else {
+            // console.log("mouse to bottom of owl");
+            // console.log(defaultTop + diffY * (maxHeight - defaultTop));
+            owlEyes.style.marginTop = `${defaultTop + diffY * (maxHeight - defaultTop)}%`;
+        }
+    });
     // add owl to webpage
     owlDiv.appendChild(owl);
     body.appendChild(owlDiv);
