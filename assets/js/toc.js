@@ -33,8 +33,11 @@ function createTOCSelectorHelpers() {
     const arrow_img = document.createElement('img');
     arrow_img.setAttribute('src', 'assets/images/dotted-arrow-twist.png');
     toc_selector_label.innerText = "here's the menu";
-    toc_selector_arrow.setAttribute('onmouseover', 'toggleTOCHelpers()');
-    toc_selector_label.setAttribute('onmouseover', 'toggleTOCHelpers()');
+    if (window.location.pathname.endsWith("index.html") || window.location.pathname.endsWith("/")){
+        console.log(window.location.pathname);
+        toc_selector_arrow.setAttribute('onmouseover', 'toggleTOCHelpers()');
+        toc_selector_label.setAttribute('onmouseover', 'toggleTOCHelpers()');
+    }
     if (document.title != 'Hey! -Walson Li') {
         toc_selector_arrow.style.opacity = 0;
         toc_selector_label.style.opacity = 0;
